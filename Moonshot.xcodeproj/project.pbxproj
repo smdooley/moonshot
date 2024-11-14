@@ -14,6 +14,7 @@
 		E41F152B2CE65036008EEE75 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F152A2CE65036008EEE75 /* ImageView.swift */; };
 		E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F152C2CE651E7008EEE75 /* ScrollTutorialView.swift */; };
 		E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F152E2CE6539B008EEE75 /* NavigationStackTutorialView.swift */; };
+		E41F15312CE654B7008EEE75 /* HierarchicalCodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15302CE654B7008EEE75 /* HierarchicalCodableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E41F152A2CE65036008EEE75 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		E41F152C2CE651E7008EEE75 /* ScrollTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTutorialView.swift; sourceTree = "<group>"; };
 		E41F152E2CE6539B008EEE75 /* NavigationStackTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTutorialView.swift; sourceTree = "<group>"; };
+		E41F15302CE654B7008EEE75 /* HierarchicalCodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalCodableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E41F152A2CE65036008EEE75 /* ImageView.swift */,
 				E41F152C2CE651E7008EEE75 /* ScrollTutorialView.swift */,
 				E41F152E2CE6539B008EEE75 /* NavigationStackTutorialView.swift */,
+				E41F15302CE654B7008EEE75 /* HierarchicalCodableView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */,
 				E41F151E2CE64FBC008EEE75 /* ContentView.swift in Sources */,
 				E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */,
+				E41F15312CE654B7008EEE75 /* HierarchicalCodableView.swift in Sources */,
 				E41F151C2CE64FBC008EEE75 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
