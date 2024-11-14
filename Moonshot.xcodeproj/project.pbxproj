@@ -13,6 +13,7 @@
 		E41F15232CE64FBE008EEE75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41F15222CE64FBE008EEE75 /* Preview Assets.xcassets */; };
 		E41F152B2CE65036008EEE75 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F152A2CE65036008EEE75 /* ImageView.swift */; };
 		E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F152C2CE651E7008EEE75 /* ScrollTutorialView.swift */; };
+		E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F152E2CE6539B008EEE75 /* NavigationStackTutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E41F15222CE64FBE008EEE75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E41F152A2CE65036008EEE75 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		E41F152C2CE651E7008EEE75 /* ScrollTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTutorialView.swift; sourceTree = "<group>"; };
+		E41F152E2CE6539B008EEE75 /* NavigationStackTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				E41F152A2CE65036008EEE75 /* ImageView.swift */,
 				E41F152C2CE651E7008EEE75 /* ScrollTutorialView.swift */,
+				E41F152E2CE6539B008EEE75 /* NavigationStackTutorialView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				E41F152B2CE65036008EEE75 /* ImageView.swift in Sources */,
 				E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */,
 				E41F151E2CE64FBC008EEE75 /* ContentView.swift in Sources */,
+				E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */,
 				E41F151C2CE64FBC008EEE75 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
