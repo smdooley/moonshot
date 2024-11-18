@@ -34,7 +34,7 @@ extension Bundle {
         catch DecodingError.typeMismatch(_, let context) {
             fatalError("Failed to decode \(file) from bundle due to type mismatch \(context.debugDescription)")
         }
-        catch DecodingError.valueNotFound(let key, let context) {
+        catch DecodingError.valueNotFound(let type, let context) {
             fatalError("Failed to decode \(file) from bundle due to missing '\(type)' value - '\(context.debugDescription)'")
         }
         catch DecodingError.dataCorrupted(_) {
