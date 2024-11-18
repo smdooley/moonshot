@@ -11,12 +11,39 @@ struct ContentView: View {
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
     
+    // adaptive column layout
+    let columns = [
+        GridItem(.adaptive(minimum: 150))
+    ]
+    
     var body: some View {
-        VStack {
-            Text("Astronauts: \(astronauts.count)")
-            Text("Missions: \(missions.count)")
+        NavigationStack {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(missions) { mission in
+                        NavigationLink {
+                            Text("Detail view")
+                        } label: {
+                            VStack {
+                                Image(mission.image)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 100, height: 100)
+
+                                VStack {
+                                    Text(mission.displayName)
+                                        .font(.headline)
+                                    Text(mission.formattedLaunchDate)
+                                        .font(.caption)
+                                }
+                                .frame(maxWidth: .infinity)
+                            }
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Moonshot")
         }
-        .padding()
     }
 }
 
