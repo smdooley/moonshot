@@ -21,6 +21,7 @@
 		E45C6A572CEB4FD5009E5833 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A562CEB4FD5009E5833 /* Astronaut.swift */; };
 		E45C6A592CEB5026009E5833 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A582CEB5026009E5833 /* Bundle-Decodable.swift */; };
 		E45C6A5F2CEB594A009E5833 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A5E2CEB594A009E5833 /* Mission.swift */; };
+		E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E45C6A562CEB4FD5009E5833 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		E45C6A582CEB5026009E5833 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		E45C6A5E2CEB594A009E5833 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				E41F15292CE65022008EEE75 /* Tutorials */,
 				E41F151B2CE64FBC008EEE75 /* MoonshotApp.swift */,
 				E41F151D2CE64FBC008EEE75 /* ContentView.swift */,
+				E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */,
 				E45C6A562CEB4FD5009E5833 /* Astronaut.swift */,
 				E45C6A582CEB5026009E5833 /* Bundle-Decodable.swift */,
 				E45C6A5E2CEB594A009E5833 /* Mission.swift */,
@@ -181,6 +184,7 @@
 				E41F152B2CE65036008EEE75 /* ImageView.swift in Sources */,
 				E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */,
 				E45C6A572CEB4FD5009E5833 /* Astronaut.swift in Sources */,
+				E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */,
 				E41F151E2CE64FBC008EEE75 /* ContentView.swift in Sources */,
 				E45C6A592CEB5026009E5833 /* Bundle-Decodable.swift in Sources */,
 				E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */,
