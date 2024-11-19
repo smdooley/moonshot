@@ -23,6 +23,7 @@
 		E45C6A5F2CEB594A009E5833 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A5E2CEB594A009E5833 /* Mission.swift */; };
 		E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */; };
 		E45C6A652CECD287009E5833 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A642CECD287009E5833 /* MissionView.swift */; };
+		E45C6A672CECD768009E5833 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A662CECD768009E5833 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E45C6A5E2CEB594A009E5833 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour-Theme.swift"; sourceTree = "<group>"; };
 		E45C6A642CECD287009E5833 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		E45C6A662CECD768009E5833 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				E41F151F2CE64FBE008EEE75 /* Assets.xcassets */,
 				E41F15212CE64FBE008EEE75 /* Preview Content */,
 				E45C6A642CECD287009E5833 /* MissionView.swift */,
+				E45C6A662CECD768009E5833 /* AstronautView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				E41F151E2CE64FBC008EEE75 /* ContentView.swift in Sources */,
 				E45C6A592CEB5026009E5833 /* Bundle-Decodable.swift in Sources */,
 				E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */,
+				E45C6A672CECD768009E5833 /* AstronautView.swift in Sources */,
 				E41F15312CE654B7008EEE75 /* HierarchicalCodableView.swift in Sources */,
 				E45C6A5F2CEB594A009E5833 /* Mission.swift in Sources */,
 				E41F151C2CE64FBC008EEE75 /* MoonshotApp.swift in Sources */,
