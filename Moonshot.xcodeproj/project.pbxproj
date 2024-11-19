@@ -22,6 +22,7 @@
 		E45C6A592CEB5026009E5833 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A582CEB5026009E5833 /* Bundle-Decodable.swift */; };
 		E45C6A5F2CEB594A009E5833 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A5E2CEB594A009E5833 /* Mission.swift */; };
 		E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */; };
+		E45C6A652CECD287009E5833 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A642CECD287009E5833 /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E45C6A582CEB5026009E5833 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		E45C6A5E2CEB594A009E5833 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour-Theme.swift"; sourceTree = "<group>"; };
+		E45C6A642CECD287009E5833 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				E45C6A5E2CEB594A009E5833 /* Mission.swift */,
 				E41F151F2CE64FBE008EEE75 /* Assets.xcassets */,
 				E41F15212CE64FBE008EEE75 /* Preview Content */,
+				E45C6A642CECD287009E5833 /* MissionView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */,
 				E45C6A572CEB4FD5009E5833 /* Astronaut.swift in Sources */,
 				E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */,
+				E45C6A652CECD287009E5833 /* MissionView.swift in Sources */,
 				E41F151E2CE64FBC008EEE75 /* ContentView.swift in Sources */,
 				E45C6A592CEB5026009E5833 /* Bundle-Decodable.swift in Sources */,
 				E41F152F2CE6539B008EEE75 /* NavigationStackTutorialView.swift in Sources */,
