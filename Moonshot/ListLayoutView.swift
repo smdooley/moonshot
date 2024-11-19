@@ -36,8 +36,8 @@ struct ListLayoutView: View {
                             .foregroundColor(.white.opacity(0.5))
                     }
                 }
-                .listRowBackground(Color.darkBackground) // Custom row background
             }
+            .listRowBackground(Color.darkBackground)
         }
         .listStyle(.plain)
     }
