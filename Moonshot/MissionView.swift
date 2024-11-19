@@ -42,7 +42,7 @@ struct MissionView: View {
                         .font(.title.bold())
                         .padding(.bottom, 5)
                     
-                    ScrollView(.horizontal, showsIndicators: false) {
+                    /*ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
@@ -70,7 +70,8 @@ struct MissionView: View {
                                 }
                             }
                         }
-                    }
+                    }*/
+                    CrewScrollView(crew: crew)
                     
                     DividerView()
                     
