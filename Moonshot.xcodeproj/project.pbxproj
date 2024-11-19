@@ -24,6 +24,7 @@
 		E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */; };
 		E45C6A652CECD287009E5833 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A642CECD287009E5833 /* MissionView.swift */; };
 		E45C6A672CECD768009E5833 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A662CECD768009E5833 /* AstronautView.swift */; };
+		E45C6A692CECE02E009E5833 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A682CECE02E009E5833 /* DividerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E45C6A602CEB5C65009E5833 /* Colour-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour-Theme.swift"; sourceTree = "<group>"; };
 		E45C6A642CECD287009E5833 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		E45C6A662CECD768009E5833 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		E45C6A682CECE02E009E5833 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				E41F15212CE64FBE008EEE75 /* Preview Content */,
 				E45C6A642CECD287009E5833 /* MissionView.swift */,
 				E45C6A662CECD768009E5833 /* AstronautView.swift */,
+				E45C6A682CECE02E009E5833 /* DividerView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				E41F15332CE65569008EEE75 /* ScrollingGridView.swift in Sources */,
 				E41F152B2CE65036008EEE75 /* ImageView.swift in Sources */,
+				E45C6A692CECE02E009E5833 /* DividerView.swift in Sources */,
 				E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */,
 				E45C6A572CEB4FD5009E5833 /* Astronaut.swift in Sources */,
 				E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */,
