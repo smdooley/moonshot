@@ -61,13 +61,24 @@ struct ContentView: View {
             .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)*/
             
             Group {
-                //GridLayoutView(astronauts: astronauts, missions: missions)
-                ListLayoutView(astronauts: astronauts, missions: missions)
+                if (showingGrid) {
+                    GridLayoutView(astronauts: astronauts, missions: missions)
+                } else {
+                    ListLayoutView(astronauts: astronauts, missions: missions)
+                }
             }
             .navigationTitle("Moonshot")
             .background(.darkBackground)
-            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+            .toolbar {
+                Button {
+                        showingGrid.toggle()
+                } label: {
+                    Image(systemName: showingGrid ? "list.bullet" : "square.grid.2x2")
+                        .foregroundColor(.white)
+                }
+            }
         }
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
