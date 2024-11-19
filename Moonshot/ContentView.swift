@@ -61,7 +61,8 @@ struct ContentView: View {
             .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)*/
             
             Group {
-                GridLayoutView(astronauts: astronauts, missions: missions)
+                //GridLayoutView(astronauts: astronauts, missions: missions)
+                ListLayoutView(astronauts: astronauts, missions: missions)
             }
             .navigationTitle("Moonshot")
             .background(.darkBackground)
