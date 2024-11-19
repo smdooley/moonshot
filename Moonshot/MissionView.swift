@@ -33,6 +33,9 @@ struct MissionView: View {
                     }
                     .padding(.top)
                 
+                Text(mission.formattedLaunchDate)
+                    .padding()
+                
                 VStack(alignment: .leading) {
                     
                     Text("Crew")
