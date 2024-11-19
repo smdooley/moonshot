@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
     
@@ -16,9 +18,11 @@ struct ContentView: View {
         GridItem(.adaptive(minimum: 150))
     ]
     
+    @State private var showingGrid = true
+    
     var body: some View {
         NavigationStack {
-            ScrollView {
+            /*ScrollView {
                 LazyVGrid(columns: columns) {
                     ForEach(missions) { mission in
                         NavigationLink {
@@ -51,6 +55,13 @@ struct ContentView: View {
                     }
                 }
                 .padding([.horizontal, .vertical])
+            }
+            .navigationTitle("Moonshot")
+            .background(.darkBackground)
+            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)*/
+            
+            Group {
+                GridLayoutView(astronauts: astronauts, missions: missions)
             }
             .navigationTitle("Moonshot")
             .background(.darkBackground)

@@ -26,6 +26,8 @@
 		E45C6A672CECD768009E5833 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A662CECD768009E5833 /* AstronautView.swift */; };
 		E45C6A692CECE02E009E5833 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A682CECE02E009E5833 /* DividerView.swift */; };
 		E45C6A6B2CECE0AF009E5833 /* CrewScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A6A2CECE0AF009E5833 /* CrewScrollView.swift */; };
+		E45C6A6D2CECE536009E5833 /* GridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A6C2CECE536009E5833 /* GridLayoutView.swift */; };
+		E45C6A6F2CECE542009E5833 /* ListLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A6E2CECE542009E5833 /* ListLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		E45C6A662CECD768009E5833 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		E45C6A682CECE02E009E5833 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		E45C6A6A2CECE0AF009E5833 /* CrewScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewScrollView.swift; sourceTree = "<group>"; };
+		E45C6A6C2CECE536009E5833 /* GridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
+		E45C6A6E2CECE542009E5833 /* ListLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				E45C6A662CECD768009E5833 /* AstronautView.swift */,
 				E45C6A682CECE02E009E5833 /* DividerView.swift */,
 				E45C6A6A2CECE0AF009E5833 /* CrewScrollView.swift */,
+				E45C6A6C2CECE536009E5833 /* GridLayoutView.swift */,
+				E45C6A6E2CECE542009E5833 /* ListLayoutView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 				E41F152B2CE65036008EEE75 /* ImageView.swift in Sources */,
 				E45C6A692CECE02E009E5833 /* DividerView.swift in Sources */,
 				E45C6A6B2CECE0AF009E5833 /* CrewScrollView.swift in Sources */,
+				E45C6A6F2CECE542009E5833 /* ListLayoutView.swift in Sources */,
 				E41F152D2CE651E7008EEE75 /* ScrollTutorialView.swift in Sources */,
 				E45C6A572CEB4FD5009E5833 /* Astronaut.swift in Sources */,
 				E45C6A612CEB5C65009E5833 /* Colour-Theme.swift in Sources */,
@@ -206,6 +213,7 @@
 				E45C6A672CECD768009E5833 /* AstronautView.swift in Sources */,
 				E41F15312CE654B7008EEE75 /* HierarchicalCodableView.swift in Sources */,
 				E45C6A5F2CEB594A009E5833 /* Mission.swift in Sources */,
+				E45C6A6D2CECE536009E5833 /* GridLayoutView.swift in Sources */,
 				E41F151C2CE64FBC008EEE75 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
